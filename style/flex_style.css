@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+div#shortcut{
+    border: 1px solid #000;
+}
+
+div#thumbArea div.thumbGoods h5{
+    display: inline-block;
+}
+
+div#main{
+    display: flex;
+}
+#main>div#shortcut{
+    width: 420px;
+    border: 1px solid blue;
+
+}
+#main>div#thumbArea{
+    display: flex;
+    width: 720px;
+    border: 1px solid red;
+}
+
+#main>div#thumbArea>div.thumbGoods{
+    width: 224px;
+    flex: 1;
+
+}
